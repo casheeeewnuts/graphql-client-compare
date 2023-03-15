@@ -1,0 +1,8 @@
+{
+  "name": "graphql-comparing",
+  "private": true,
+  "workspaces": [
+    "server/*",
+    "client/*"
+  ]
+}

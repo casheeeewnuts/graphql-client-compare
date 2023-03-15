@@ -1,0 +1,19 @@
+type Query {
+  user(id: ID!): User
+  message: String!
+  article: [Article!]!
+}
+
+type User {
+  id: ID!
+  name: String!
+  email: String!
+  article: [Article!]
+}
+
+type Article {
+  id: ID!
+  name: String!
+}
+
+type
